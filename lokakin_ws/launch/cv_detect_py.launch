@@ -1,0 +1,14 @@
+<launch>
+  <node
+    pkg="???_asn_1"
+    type="question3_pub.py"
+    name="cv_detect_pub"
+    output="screen"
+  />
+  <node
+    pkg="????_asn_1"
+    type="question3_sub.py"
+    name="cv_detect_sub"
+    output="screen"
+  />
+</launch>
